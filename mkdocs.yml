@@ -1,0 +1,43 @@
+site_name: Jazzy`s notebook
+theme: 
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - toc.integrate 
+    - search.highlight
+    - search.suggest
+    - content.tabs.link
+    - content.code.copy
+
+  palette:
+  
+
+# Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+      primary: black #font color
+      accent: purple  #accent color
+  language: en
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/JazZyzJ
+
